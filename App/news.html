@@ -26,17 +26,44 @@
                <span class="mui-icon mui-icon-more"></span>
            </div>
        </header>
-       <a class="container" href="show.html">
-          <div class="word">
-               <p>三山半落青天外</p>
-                <p>二水中分白鹭洲</p>
-          </div>
-          <div class="author">
-              <p>李白</p>
-              <p>
-              </p>
-          </div>
-       </a>
+        <div class="swiper-container">
+              <div class="swiper-wrapper">
+                      <a class="container swiper-slide" href="show.html">
+                      <div class="word">
+                          <p>三山半落青天外</p>
+                          <p>二水中分白鹭洲</p>
+                      </div>
+                      <div class="author">
+                          <p>李白</p>
+                          <p>
+                          </p>
+                      </div>
+                  </a>
+                      <a class="container swiper-slide" href="show.html">
+                          <div class="word">
+                              <p>桃之夭夭</p>
+                              <p>灼灼其华</p>
+                          </div>
+                          <div class="author">
+                              <p>无名氏</p>
+                              <p>
+                              </p>
+                          </div>
+                      </a>
+                      <a class="container swiper-slide" href="show.html">
+                          <div class="word">
+                              <p>商女不知亡国恨</p>
+                              <p>隔江犹唱后庭花</p>
+                          </div>
+                          <div class="author">
+                              <p>杜牧</p>
+                              <p>
+                              </p>
+                          </div>
+                      </a>
+              </div>
+        </div>
+
       <footer>
               <a class="item mui-active" href="news.html">
                  <span class="item_icon  iconfont icon-zhai"></span>
@@ -59,6 +86,10 @@
                  <span class="item_word">我</span> 
               </a>            
       </footer>
-
 </body>
+<script>
+    var mySwiper = new Swiper('.swiper-container', {
+    })
+
+</script>
 </html>

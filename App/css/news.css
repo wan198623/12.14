@@ -1,17 +1,10 @@
-*{
-    margin:0;padding:0;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-}
-html,body{
-    width:100%;height:100%;
+*html,body{
+    width:100%;height:auto;
     font-family:Helvetica;
+    font-size:0.5rem;
     color:#333;
-
 }
 body{
-      padding: 0 24px;
       background:#F3F3F3;
 }
 a{
@@ -30,7 +23,7 @@ header,footer{
     position: fixed;
     left:0;
     width: 100%;
-    height: 1.8rem;
+    height:1rem;
     background:#fff;
 }
 .iconfont{
@@ -46,11 +39,11 @@ header,footer{
         }
 .nav{
     width:50%;
-    height: 1.2rem;
+    height: 0.8rem;
     position:absolute;
     right: 0;
     bottom: 0;
-    line-height: 1.2rem;
+    line-height:0.8rem;
     display: -webkit-flex; /* Safari */  
     display: flex;  
 }
@@ -58,9 +51,8 @@ header,footer{
      width:33.333%;
     height:100%;
     float: left;   
-   font-size:0.7rem;
+   font-size:0.6rem;
    text-align: center;
-   line-height: 1.2rem
 }
 header{
     top:0;
@@ -71,6 +63,7 @@ footer{
     background:rgb(244,245,255);
     border-top: 1px solid #ccc;
     padding:0.2rem 0;
+     height: 1.2rem;
 }
 footer .item{
     width:20%;
@@ -80,22 +73,21 @@ footer .item{
 footer .item span{
     display: block;
     width: 100%;
-    height:30%; 
+    height:40%; 
     color:#929292;
     float: left;
     text-align: center; 
 }
 footer .item .item_icon{
-    height:70%; 
-    font-size: 0.3rem;
-    line-height:1.4rem;
+    height:60%; 
+    font-size: 0.35rem;
+    line-height: 0.6rem;
 }
 footer .item .cc{
-    font-size:0.7rem;
-    line-height:1.2rem;
+    font-size:0.5rem;
 }
 footer .item  .item_word{
-    font-size:0.3rem; 
+    font-size:0.25rem; 
 }
 .icon-zhai:before{
     content:"\e625";
@@ -106,17 +98,19 @@ footer .item  .item_word{
 .icon-wen:before{
     content:"\e619";
 }
-.container{
-    width:6rem;
-    height:8rem;
-    background:rgb(255,254,250); 
+.swiper-container{
+    width:80%;
+    height:60%;
     position: absolute;
     left:0;
     top:0;
     right: 0;
     bottom: 0;
     margin: auto;
-}   
+}
+.swiper-wrapper,.swiper-slide{
+    background:rgb(255,254,250);
+}
 footer  .mui-active span{
     color:#4194E8;
 }
